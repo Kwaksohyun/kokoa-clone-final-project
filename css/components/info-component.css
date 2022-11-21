@@ -1,0 +1,33 @@
+.info-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    object-fit: cover;
+    box-shadow: 0px 5px 15px 5px #cabeaddc;
+}
+
+.cover-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    margin: 40px 0px;
+    box-shadow: 0px 10px 40px #cabeaddc;         
+}
+
+.info-component__title {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 15px 0px;
+}
+
+.info-component__subtitle {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}

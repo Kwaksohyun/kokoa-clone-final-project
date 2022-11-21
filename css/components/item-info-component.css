@@ -1,0 +1,20 @@
+.item-info-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-info-component__artist {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.playlist-control-box .item-info-component__artist {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.item-info-component__music-name {
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 10px;
+}

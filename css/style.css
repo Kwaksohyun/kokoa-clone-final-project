@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?&family=Open+Sans:wght@400;600;700&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/* Componentss */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/info-component.css";
+@import "components/item-info-component.css";
+@import "components/no-mobile.css";
+@import "components/push-notification.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chat.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/playlist.css";
+@import "screens/player.css";
+
+
+body {
+    font-family: 'Open Sans', 'Nanum Gothic', sans-serif;;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.svg-2x {
+    width: 40px;
+    height: 35px;
+}

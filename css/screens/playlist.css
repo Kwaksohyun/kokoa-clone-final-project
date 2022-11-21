@@ -1,0 +1,128 @@
+/* Playlist, Playler 공통 */
+.playlist-container,
+.player-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f1eded;
+    color: #2e363e;
+    padding: 40px 0px;
+}
+
+.playlist,
+.player {
+    background-color: white;
+    border-radius: 35px;
+    width: 390px;
+    padding: 45px 20px 80px 20px;
+}
+
+.screen-header span,
+.playlist-artist-btns span,
+.playlist-control-box__btn span,
+.music-control-btn span {
+    cursor: pointer;
+}
+
+.playlist,
+.player,
+.shuffle-btn,
+.like-btn,
+.playlist-list__item:nth-child(2),
+.playlist-control-box {
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Playlist */
+.plalist {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.playlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.playlist-artist-info {
+    margin-top: 25px;
+}
+
+.playlist-artist-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px;
+}
+
+.shuffle-btn {
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.like-btn {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.like-btn i {
+    margin-right: 5px;
+}
+
+.playlist-list {
+    display: flex;
+    flex-direction: column;
+    /* overflow: scroll; */
+}
+
+.playlist-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+}
+
+.item-info__cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.playlist-list__item .fa-ellipsis-v {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.playlist-control-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    width: 350px;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.playlist-control-box__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}

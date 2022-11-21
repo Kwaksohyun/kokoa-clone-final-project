@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Messenger</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>75%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header_icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-user-plus fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link" href="">
+        <i class="fas fa-info-circle"></i> Friend's Names Display <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img 
+                    src="https://postfiles.pstatic.net/MjAyMjEwMTVfMjg0/MDAxNjY1ODA3Njg3MTc5.skIWLz3eDgj8hn24ZHK0bbb_9UkoeBmyDuX1EO56GQYg.c5p1d4L3ZmW87o1eNN1vqu8lqKvmu0cy1vs7PRJEYdUg.JPEG.dkswpffkrhd/%EC%8A%A4%ED%8B%B0%EC%BB%A4%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg?type=w966"
+                    class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">sohyun</h4>
+                    <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img 
+                        src="https://i.pinimg.com/564x/04/4c/53/044c53fa89ddbd1c0c31a56a6787736b.jpg"
+                        class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not--bold">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div>
+                        <span>11</span>
+                        <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">7</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="playlist.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="svg-2x w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
+                    </svg>                      
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__push-notification push-notification"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <img src="https://i.pinimg.com/564x/ff/a7/d0/ffa7d090667d40fc87442fbacd82bed4.jpg" alt="">
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big. Please resize the screen to mobile size :) </span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

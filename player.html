@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player - Messenger</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>75%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <div class="player-container">
+        <section class="player">
+            <header class="playlist-header">
+                <a href="playlist.html"><i class="fas fa-arrow-left fa-lg"></i></a>
+                <span><i class="fas fa-ellipsis-v fa-lg"></i></span>
+            </header>
+    
+            <div class="currently-playing-info">
+                <div class="info-component">
+                    <img class="info-component__img cover-img" src="https://search.pstatic.net/common?type=n&size=174x174&quality=95&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F003%2F735%2F3735168.jpg%3Ftype%3Dr204Fll%26v%3D20220505214025" />
+                    <h1 class="info-component__title">Rest</h1>
+                    <span class="info-component__subtitle">백예린(Yerin Baek)</span>
+                </div>
+            </div>
+            <div class="audio">
+                <div class="timer">
+                    <span>1:12</span>
+                    <span>3:25</span>
+                </div>
+                <div class="audio__progress-bar">
+                    <div class="progress-bar__played"></div>
+                    <div class="progress-bar__point"></div>
+                </div>
+            </div>
+            <div class="music-control-btn">
+                <span><i class="fas fa-sync-alt"></i></span>
+                <span><i class="fas fa-step-backward fa-lg"></i></span>
+                <span class="btn-play"><i class="fas fa-play fa-lg"></i></span>
+                <span><i class="fas fa-step-forward fa-lg"></i></span>
+                <span><i class="fas fa-random"></i></span>
+            </div>
+        </section>
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big. Please resize the screen to mobile size :) </span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

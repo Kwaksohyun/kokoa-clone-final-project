@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist - Messenger</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>75%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <div class="playlist-container">
+        <section class="playlist">
+            <header class="playlist-header">
+                <a href="friends.html"><i class="fas fa-arrow-left fa-lg"></i></a>
+                <span><i class="fas fa-search fa-lg"></i></span>
+            </header>
+    
+            <div class="playlist-artist-info">
+                <div class="info-component">
+                    <img class="info-component__img artist-img" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMjNfMjc0%2FMDAxNjExMzQzOTcyNDU0.Ni3W4UUY1oJssTqDcrgik-Ks9p_30QFrkqLspZV23L8g.nSji2lCyGFk10goK5D4fgPn0WI3vQPJh6qtmSm99HTEg.JPEG.nosense_jh%2FIMG_7711.JPG&type=sc960_832" />
+                    <h1 class="info-component__title">백예린(Yerin Baek)</h1>
+                    <span class="info-component__subtitle">R&B Soul</span>
+                </div>
+            </div>
+            <div class="playlist-artist-btns">
+                <span class="shuffle-btn">Shuffle</span>
+                <span class="like-btn">
+                    <i class="fas fa-heart"></i>212,971
+                </span>
+            </div>
+                
+            <ul class="playlist-list">
+                <li class="playlist-list__item">
+                    <div class="item-info">
+                        <img class="item-info__cover" src="https://search.pstatic.net/common?type=n&size=174x174&quality=95&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F003%2F735%2F3735168.jpg%3Ftype%3Dr204Fll%26v%3D20220505214025" />
+                        <div class="item-info-component">
+                            <span class="item-info-component__artist">백예린(Yerin Baek)</span>
+                            <span class="item-info-component__music-name">Square (2017)</span>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-ellipsis-v"></i></span>
+                </li>
+                <li class="playlist-list__item">
+                    <div class="item-info">
+                        <div class="item__play">
+                            <img class="item-info__cover" src="https://search.pstatic.net/common?type=n&size=174x174&quality=95&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F003%2F735%2F3735168.jpg%3Ftype%3Dr204Fll%26v%3D20220505214025" />
+                            <span><i class="fa-solid fa-chart-simple fa-2x"></i></span>
+                        </div>
+                        <div class="item-info-component">
+                            <span class="item-info-component__artist">백예린(Yerin Baek)</span>
+                            <span class="item-info-component__music-name">Rest</span>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-ellipsis-v"></i></span>
+                </li>
+                <li class="playlist-list__item">
+                    <div class="item-info">
+                        <img class="item-info__cover" src="https://musicmeta-phinf.pstatic.net/album/005/151/5151200.jpg?type=r480Fll&v=20220526163924" />
+                        <div class="item-info-component">
+                            <span class="item-info-component__artist">백예린(Yerin Baek)</span>
+                            <span class="item-info-component__music-name">Loveless</span>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-ellipsis-v"></i></span>
+                </li>
+                <li class="playlist-list__item">
+                    <div class="item-info">
+                        <img class="item-info__cover" src="https://search.pstatic.net/common?type=n&size=174x174&quality=95&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F006%2F405%2F6405347.jpg%3Ftype%3Dr204Fll%26v%3D20210910175910" />
+                        <div class="item-info-component">
+                            <span class="item-info-component__artist">백예린(Yerin Baek)</span>
+                            <span class="item-info-component__music-name">Antifreeze</span>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-ellipsis-v"></i></span>
+                </li>
+            </ul>
+            
+            <div class="playlist-control-box">
+                <a href="player.html">
+                    <div class="item-info-component">
+                        <span class="item-info-component__artist">백예린(Yerin Baek)</span>
+                        <span class="item-info-component__music-name">Rest</span>
+                    </div>
+                </a>
+                <div class="playlist-control-box__btn">
+                    <span><i class="fas fa-step-backward"></i></span>
+                    <span><i class="fas fa-pause fa-lg"></i></span>
+                    <span><i class="fas fa-step-forward"></i></span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big. Please resize the screen to mobile size :) </span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
