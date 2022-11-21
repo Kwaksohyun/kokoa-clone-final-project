@@ -12,6 +12,10 @@
     font-size: 32px;   
 }
 
+#no-mobile span {
+    text-align: center;
+}
+
 /* 화면의 크기가 645px보다 작을 때 */
 @media screen and (max-width: 645px) {
     #no-mobile {
