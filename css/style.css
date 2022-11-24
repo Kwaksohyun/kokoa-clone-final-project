@@ -34,6 +34,14 @@ body {
     padding: 0px var(--horizontal-space);
 }
 
+.chat-room {
+    padding: 12px var(--horizontal-space);
+}
+
+.chat-room:active {
+    background-color: var(--active-main-bg-color);
+}
+
 .svg-2x {
     width: 40px;
     height: 35px;
