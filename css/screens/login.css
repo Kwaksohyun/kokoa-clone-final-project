@@ -1,9 +1,31 @@
 .welcome-header {
-    margin: 90px 0px;
+    margin: 40px 0px 80px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@keyframes rotateWelcome {
+    0% {
+        transform: none;   
+    }
+    35% {
+        transform: rotate(10deg);
+    }
+    70% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.welcome-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: rotateWelcome 1.5s linear infinite;
 }
 
 .welcome-header__title {
