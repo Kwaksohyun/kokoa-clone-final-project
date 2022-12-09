@@ -16,6 +16,10 @@
     padding: 45px 20px 80px 20px;
 }
 
+.player {
+    padding-bottom: 50px;
+}
+
 .screen-header span,
 .playlist-artist-btns span,
 .playlist-control-box__btn span,
