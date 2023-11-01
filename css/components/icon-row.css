@@ -9,9 +9,8 @@
     flex-wrap: wrap;
 }
 
-.more-screen .icon-rows,
-.more-screen .icon-row {
-    margin: 10px 0px;
+.more-screen .icon-rows {
+    margin: 12px 0px;
 }
 
 .icon-row__icon {
@@ -28,9 +27,9 @@
 }
 
 .icon-row i {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .icon-row span {
-    margin-top: 18px;
+    margin-top: 16px;
 }
